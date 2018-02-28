@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CucJS</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <style media="screen">
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            background-color: #34495e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center align-self-center">
+            <h4 style="color:#fff;">Johnny-Five & Arduino</h4>
+        </div>
+        <div class="row justify-content-center align-self-center">
+            <div class="card">
+                <h5 class="card-title">Humedad Suelo</h5>
+                <h2 id="temp" class="display-1 p-4"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
